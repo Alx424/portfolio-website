@@ -1,10 +1,29 @@
 html {
     background-color:rgb(86, 86, 82);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 100;
     color:#ffffff
 }
 p {
     text-align: justify;
+    font-size: 30px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+#bubble {
+  font-size: 25px;
+}
+#japanese {
+  font-family: "Noto Serif JP";
+  font-size: 5px;
+  margin:0px;
+  text-align: right;
 }
 ul {
     list-style-type: none;
@@ -26,7 +45,7 @@ ul {
   li a:hover {
     background-color: #111;
   }
-#bubble {
+  #bubble {
     padding: 24px;
     border-radius: 6px;
     container-type:inline-size;
@@ -69,7 +88,6 @@ ul {
   background-color: #111;
   margin: auto;
   display:block;
-  margin-top: 3%;
 }
 
 #glitch:hover::after {
